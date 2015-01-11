@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+I am the homepage!
+
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.song_name }}</a>
+    by {{ post.artist_name }}<br />
+    {{ post.song_year }}<br />
+    --------
+  </li>
+  {% endfor %}
+</ul>
