@@ -4,6 +4,17 @@ layout: default
 
 I am the homepage!
 
+
+{% assign sorted_songs = site.pages | sort: 'date' %}
+
+{% for page in sorted_songs reversed %}
+  {% if page.categories contains 'song' %}
+    <div class="item">
+      <a href="{{ page.url }}">{{page.song_name}}</a>
+    </div>
+  {% endif %}
+{% endfor %}
+
 <ul>
   {% for post in site.posts %}
   <li>

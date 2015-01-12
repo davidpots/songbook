@@ -1,5 +1,6 @@
 ---
 layout: page
+categories: [song]
 title: Guitar lesson for "Fun Times in Babylon" by Father John Misty
 date: 2015-01-06 13:22:28
 artist_name: Father John Misty

@@ -1,10 +1,12 @@
 ---
 layout: page
+categories: [song]
 title: Guitar lesson for "How I Go" by Yellowcard
 date: 2015-01-07 13:22:28
 artist_name: Yellowcard
 song_name: How I Go
 song_year: 2006
+
 ---
 
 ## Chord progression cheat sheet

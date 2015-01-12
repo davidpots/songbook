@@ -1,5 +1,6 @@
 ---
 layout: page
+categories: [song]
 title: Guitar lesson for "Dark Side of the Moon" by Chris Staples
 date: 2014-12-31 13:22:28
 artist_name: Chris Staples
