@@ -10,7 +10,7 @@ I am the homepage!
 {% for page in sorted_songs reversed %}
   {% if page.categories contains 'song' %}
     <div class="item">
-      <a href="{{ page.url }}">{{page.song_name}}</a>
+      <a href="/{{ page.url }}">{{page.song_name}}</a>
     </div>
   {% endif %}
 {% endfor %}
